@@ -6,9 +6,9 @@ import Navbar from "./Navbar";
 
 const uniqueList = [
   ...new Set(
-    Menu.map((curElem) => {
+    Menu.map((curElem,idx ,key={idx}) => {
       return curElem.category;
-    })
+      })
   ),
   "All",
 ];
