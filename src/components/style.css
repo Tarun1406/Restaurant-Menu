@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border-radius: 60px;
   padding-left: 5px;
   padding-right: 5px;
 
@@ -9,7 +10,7 @@
 }
 
 html {
-  background:whitesmoke;
+  background:rgb(240, 224, 193);
   background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
@@ -32,7 +33,7 @@ html {
 .main-card--cointainer {
   display: grid;
   grid-template-columns: repeat(3, minmax(300px, 500px));
-  grid-gap: 50px;
+  grid-gap: 1px;
   justify-content: space-around;
 }
 
@@ -60,6 +61,7 @@ box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 
 .card {
   background-color:white;
+  border-radius: 60px;
   padding: 5px;
   position: relative;
   box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
@@ -117,7 +119,7 @@ box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
   letter-spacing: 6px;
   margin: 5px 0 20px;
   position: relative;
-  color:white;
+  color:grey;
   text-align: right;
   text-transform: uppercase;
 }
